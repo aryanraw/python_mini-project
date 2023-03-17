@@ -8,10 +8,5 @@ def downlode(link):
         yt_obj.download()
     except:
         print('an error has occurred')
-    print('Downlode is completed')
     title = yt_obj.title
-    return title
-
-
-link = input('enter link: ')
-downlode(link)
+    print(title+'is done....')
