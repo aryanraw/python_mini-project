@@ -1,7 +1,6 @@
-def links():
-    obj = open("links.txt", "r")
-    lin = []
-    for line in obj:
-        lin.append(line.split())
-    obj.close()
-    return lin
+def file_to_list(filename):
+    with open(filename, 'r') as f:
+        links = f.readlines()
+        # Remove any newline characters
+        links = [link.strip() for link in links]
+    return links
