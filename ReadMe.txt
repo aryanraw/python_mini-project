@@ -1,3 +1,6 @@
+!!!!! one importent thing in this code i have used text file to store link(s) !!!!!
+
+
 if u download the pytube lib with the pip requirements.txt don't run the full code there is 
 test.py in this folder run that first if it gives some error like "AttributeError: 'NoneType' object has no attribute 'span'" then do this 
 in pytube in path C:\PycharmProjects\projectShalakaGif\venv\Lib\site-packages\pytube\cipher.py in line 411 from this [ transform_plan_raw = find_object_from_startpoint(raw_code, match.span()[1] - 1) ]
